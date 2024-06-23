@@ -1,0 +1,58 @@
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url('images/background\ image.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+}
+
+header h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 3em;
+    color: #555;
+}
+
+header h2 {
+    font-size: 1.5em;
+    color: #777;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 20px;
+    border-radius: 10px; 
+}
+
+section p {
+    margin: 10px 0;
+    line-height: 1.6;
+    font-size: 1.2em;
+}
+
+section p:nth-child(odd) {
+    font-weight: bold;
+    font-size: 1.3em;
+    color: #444;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 0.9em;
+    color: #aaa;
+}
+
